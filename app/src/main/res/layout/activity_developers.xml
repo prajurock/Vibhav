@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.vibhav2k17.android.vibhav2k17.developers">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:id="@+id/titleImage"
+                android:scaleType="fitXY"
+                app:layout_collapseMode="parallax"
+                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"/>
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.vibhav2k17.android.vibhav2k17.developers"
+        tools:showIn="@layout/activity_developers">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/prajwal" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="45dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="18dp"
+                            android:text="Prajwal Kumar Singh"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="8dp"
+                            android:text="2nd Year Electrical Engineering"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="225dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal">
+
+                            deve
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="25dp"
+                                android:onClick="prajlink"
+                                android:src="@drawable/link" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="25dp"
+                                android:onClick="prajfb"
+                                android:src="@drawable/fb" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/mi" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="45dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="18dp"
+                            android:text="Pragyesh Mishra"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="8dp"
+                            android:text="2nd Year Electrical Engineering"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="225dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="25dp"
+                                android:onClick="praglink"
+                                android:src="@drawable/link" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="25dp"
+                                android:onClick="pragfb"
+                                android:src="@drawable/fb" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="  Designers"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_centerVertical="true"
+                android:background="#BDBDBD" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="101dp"
+                        android:src="@drawable/gautam" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="45dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="18dp"
+                            android:text="TVS Gowtham"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="173dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="8dp"
+                            android:text="2nd Year Electrical Engineering"
+                            android:textSize="15dp" />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:onClick="tvsfb"
+                        android:layout_marginRight="5dp"
+
+                        android:src="@drawable/fb" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="98dp"
+                        android:src="@drawable/kowshik" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="45dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="18dp"
+                            android:text="Bokka Kowshik"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="8dp"
+                            android:text="2nd Year Electrical Engineering"
+                            android:textSize="15dp" />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:onClick="khofb"
+                        android:layout_marginRight="5dp"
+
+                        android:src="@drawable/fb" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/jks" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="45dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="18dp"
+                            android:text="JKS Suryarao"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="8dp"
+                            android:text="2nd Year Electrical Engineering"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="30dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="jksfb"
+                        android:src="@drawable/fb" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="  Contributor"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_centerVertical="true"
+                android:background="#BDBDBD" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/shalini" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="45dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="18dp"
+                            android:text="Shalini Verma"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="225dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="8dp"
+                            android:text="2nd Year Electronics and Instrumental Engineering"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="30dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="shalini"
+                        android:src="@drawable/fb" />
+
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

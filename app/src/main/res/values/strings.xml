@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vibhav 2K17</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="label_loading">Please Wait…</string>
+    <string name="label_interval">Interval: </string>
+    <string name="label_indicator_size">Indicator size: </string>
+    <string name="label_animate_indicators">Animate indicators: </string>
+    <string name="label_hide_indicators">Hide Indicators</string>
+    <string name="label_loop_slides">Loop slides: </string>
+    <string name="title_activity_day_1">day_1</string>
+    <string name="aboutees">The Electrical Engineering Society, IIT(ISM) Dhanbad comes under the electrical department of IIT (ISM) Dhanbad which was founded in the year 2006.
+        The EES is currently headed by Prof. Pradip Kumar Sadhu. The society aims to unravel the hidden potential within students and help immensely in developing interests of individuals in different aspects of technology.
+        The society is made up of different unique individuals working together to organize events like freshers welcome, farewell, guest lectures,workshops interactive sessions, excursions and departmental fests.
+        Discussions for any contribution in electrical engineering field are also held by the society .
+        It acts as a link between the faculty and the students of the department of electrical engineering. The society maintains healthy and peaceful environment in the department.</string>
+
+
+
+
+    <string-array name="fest">
+        <item>Technical</item>
+        <item>Coding</item>
+        <item>Bull Stock</item>
+        <item>Robotics</item>
+        <item>Placement Fever</item>
+        <item>Gaming</item>
+        <item>Workshop</item>
+        <item>Paper Presentation</item>
+        <item>Treasure Hunt</item>
+        <item>Guest Lecture</item>
+    </string-array>
+    <string-array name="tech">
+        <item>Pirates Of Circuit</item>
+        <item>Aavishkar</item>
+        <item>Brain O Riddle</item>
+        <item>Vitricity</item>
+    </string-array>
+    <string name="about">This event puts the students through a stimulated version of the campus placement
+process.Begining with an aptitude test,the participiants will go on to appear for
+group discussions and evevntually sit for personal interviews.</string>
+    <string name="judgingCriteria"> -> First of all, participiants will be shortlisted on the basis of curriculum vitae.\n\n
+        -> The Aptitude and English Proficiency Test and the Group Discussion will be the
+elimination round through which participiants will be selected for the Personal
+Interview.\n\n
+ -> The 2-5 participiants will get a certificate of merit; however, each of the
+participiants will receive the certificate of participation.\n\n
+ -> Any misbehaviour would automatically lead to disqualification.\n\n</string>
+    <string name="rules"><b>Round 1:</b>\n
+   -> The format of the curriculum vitae will be provided immediately after registration
+ which participants have to fill sincerely and proceed further.\n
+  ->The prelimiary round will be an Aptitude and English Proficiency Test round.\n\n
+ <b> Round 2:</b>\n
+   -> The next challenge is the Group Discussion(GD) round, where participiants
+ will be divided into certain number of groups to discuss certain topics, which will be
+provided on the spot.\n\n
+  Round 3:\n
+   -> And the final round is the Persional Interview.Both HR and Technical interviews will
+be conducted in a stimulated environment.\n\n
+</string>
+    <string name="prizes">Prizes Worth:-Rs1800
+
+    </string>
+    <string name="contactUs">Contacts:\n
+Nayan Gupta:9462303121\n
+Abhishek Kumar:9472314440\n
+Abhishek:9729935020\n</string>
+    <string name="about1"> Tired of rigmarole core subjects ?Don’t worry! If you have at least superficial knowledge of coding in tandem with mind as sharp as Holmes then this event belongs to you.
+        It will test your programming skills and your acquaintance with IT field . Accomplish your dream of becoming an flamboyant coder.
+        The repercussions shall be enhanced programming skills and  broadened sense to solve aptitude questions to boost your career and win prizes. </string>
+    <string name="rules1">Event rounds:- It consist of three rounds..\n\n->   Round 1(RELAY RACE): This round consists of 15
+questions. Every participant has to solve 5 questions.\n\n->
+Question set will not be given to another participant
+until first participant solves his/her question
+set…..just like a RELAY RACE.\n\n->
+ Round 2(CODE-E-TRICAL): Shortlisted teams from
+round 1 will compete in this round. This is a
+competitive coding round.\n\n->
+Round 3(SURPRIZE ROUND): Info of this round will
+be given on spot.\n\n
+        Event is designed keeping freshers in mind. 70% of total
+seats in Round 2 are reserved for first years.
+    </string>
+    <string name="judgingCriteria1">->Round 1: (Max Questions + Min Time) RULE.\n\n->
+Marks will be given based on above rule.\n\n->
+ Round 2: Full marks will be given on passing all test cases.</string>
+    <string name="prizes1">
+        Prize Worth:-Rs2000
+    </string>
+    <string name="contactUs1">Avinash Chandrakar
+- 9262239306\n</string>
+    <string name="title_activity_day_2">day_2</string>
+    <string name="title_activity_hub">hub</string>
+    <string name="title_activity_placement_fever">Placement Fever</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about2">online trading event</string>
+    <string name="rules2">play the event</string>
+    <string name="judgingCriteria2">jude the event</string>
+    <string name="prizes2">prizes won</string>
+    <string name="contactUs2">contact on 7376099064</string>
+    <string name="about3">Paper presentation is an event in which a team has to present a paper on any general topic,for e.g academic dishonesty,
+        foreign exchange management etc., within a specified time limit.</string>
+    <string name="rules3">\n ->>Each team must not contain  maximum 4 members.\n ->>Candidates should send their paper before deadline (29th of Nov 2017) and selected team should have to present there paper in the form of ppt\n ->>Each team must mail their papers
+        before the deadline from amongst which paper would be selected for presentation round.\n ->>
+        The paper must contain atleast 200 words.\n ->> Each team would be allotted max. 7 min.</string>
+    <string name="judgingCriteria3">For presentation and after that question will be asked from judges for 2 minutes.</string>
+    <string name="contactUs3">Vikas:9852694905,7015535095 \n Vikassihag999@gmail.com</string>
+    <string name="about7">Spread over the Campus, the questions would lead from one clue to another, masked by electrical riddles, making the event department centric and the participants would have to collect all the seven clues viz a viz horcruxes, to defeat the final dark Lord, resistance.</string>
+    <string name="rules7">Search for clues and solve them all at the earliest to win.</string>
+    <string name="judgingCriteria7">Team which will solved all the riddles first.</string>
+    <string name="contactUs7">Kshitij : 9648025056,7355395147 \n Ahasas : 7294875007</string>
+    <string name="prizes7">Prizes Worth:-Rs1800</string>
+    <string name="aboutt1"> Ever dreamt of being bombarded by a stream of resistors, diodes, capacitors and inductors?
+        If yes, then it’s your time. Portray your talents and show us what these elements are capable of. "PIRATES OF CIRCUITS " is an event which will scrutinize the Ohm, Farad and Henry with in you and will hallmark you as the king of circuits, if you emerge as the winner.
+    </string>
+    <string name="rulest1"> <b>Round 1</b> \n :(MYSTERY OF THE “BLACK PEARL”)\n\n->
+
+In this round a STATEMENT PROBLEM will be presented in front of you.\n\n->The problem will be related to real life situations.\n\n->You will be asked either to give a solution to the problem or an explanation to the same.\n\n->HALF AN HOUR will be allotted to submit the solution. \n\n->
+        Teams, whose solution will be best and precise, will proceed to the next round.\n
+
+
+
+-><b>Round 2:</b>\n(BIDDING IN “TORTUGA”)
+
+\n\n->The final round is called BIDDING IN TORTUGA.\n\n->A circuit layout will be given to each team, containing place for six resistors (in a fashion) along with a voltage source.
+        \n\n->A resistor manufacturing company will set their base price for different values of resistance (100ohm,200ohm,300ohm…….,1000ohm).
+        \n\n->Initially all the participating teams will be given some virtual money (according to their performance in previous round).\n\n->Each team will start bidding and buying their resistors based on the base value of each resistors.
+        \n\n-> Further rules for bidding will be told then and there.\n\n->
+        Each team should have at least 6 resistors with them at the end of game.\n\n-> At the end, money left with each team shows the value of voltage source they will use in their circuit.\n\n->
+        Finally, based on the circuit layout given in starting they will connect voltage source and resistors, and will calculate power developed in the circuit.\n\n->
+        Team with max power developed will be JACK SPARROW of PIRATES.\n\n
+        RULES AND REGULATIONS:-\n\n->
+        Mobiles and calculators should not be used during the event.\n\n->In case of any fraud or cheating, the participants will be disqualified from the competition.\n\n->Organizers reserve the right to change rules as they consider fit.\n\n->Decision of the judges will be final and binding to all.</string>
+    <string name="judgingCriteriat1">->Judging for the FIRST round will be based on how best and precise is your solution.\n\n->
+In Second Round, team with circuit having maximum power will emerge as winner.
+</string>
+    <string name="prizest1">Prizes Worth:-Rs2000</string>
+    <string name="contactUst1">Apoorv 7274923024\n
+Manoj P 8332858780\n
+Sourav 9454759784</string>
+    <string name="aboutt2">Are you inherently curious or intrusive? To the extent where it usually lands you in trouble? No problem! Brain_o_riddle
+is here to cater for your curious minds. Put your thinking caps on and register quickly . Winners receive exciting prizes.
+This event will test the basic knowledge of electrical and presence of mind.</string>
+    <string name="rulest2">Round 1(Riddle Relay):-\n\n->
+
+
+This round is based on riddles and it will be of 1 hour.\n\n->
+
+The team will be given 5 riddles which their team members have to solve as a relay.\n\n->
+     Riddles will be based on general history, recent innovations, inventions, mind blowing facts and puzzles. \n\n->
+        After solving each riddle the team would be given letter/s which they have to arrange in a manner to form a circuit element. If they are able to form full name then that element would be provided to them to use in next round.\n\n->
+MJ  Stroke-Participants can be given 10 hints if they need.\n\n
+
+
+Round 2(QCD):-\n\n->
+
+
+Second round is of quiz and circuit designing and it will be of 1hour.\n\n->
+      A question will be asked and first five teams responding will be given chance to answer the questions. \n\n->For every correct answer they will pick up a token from the bowl.
+
+Each token will lead you to different electrical component. And with each adding component you have to
+
+ Complete an Electric Circuit comprising of minimum 4 electrical elements (must have at least one Energy source).\n\n-> Questions will be asked till a team builds a complete electrical circuit.\n\n->
+
+GREEN CARD-A team giving two continuously correct answers (hatrick) will be given any electrical component of their choice.\n\n->
+
+RED CARD-Any Team giving an answer incorrectly has to return any electrical component which they have earned back into the bowl as per their choice.\n\n->
+
+
+There should be 2to 3 members in a team.\n\n->
+
+Using any unfair means such as using mobile phone during event will lead to automatic expulsion.
+For relay events members can participate alternatively too.</string>
+    <string name="judgingCriteriat2">
+       ->Circuits will be evaluated as per their functionality and efficiency.\n\n->
+·         Points will be rewarded for completing task in lesser time.\n\n->
+·        Extra points will be rewarded for sustaining MJ Stroke and green card.
+    </string>
+    <string name="prizest2">Prizes Worth:-Rs3000</string>
+    <string name="contactUst2">Contacts:-\n\n
+Vishal Jaiswal (7294874260)\n
+Vipin Dwivedi (9425865905)\n
+        Bhoop Narayan Singh (7283014466)</string>
+    <string name="aboutt3"> This event is organized by Electrical Department of IIT(ISM) Dhanbad for VIBHAV 2017.
+        It is here to test how can you co-ordinate with your left and right part of brain in designing innovative electrical circuits from the various electrical components that you have been provided.  </string>
+    <string name="rulest3">->Round 1:-<b>Selection of the BOX.</b>\n \n
+RULES:- \n->Questions will be asked on the basic electrical circuits.\n\n->Team, which answer first will get a chance to select a box first.\n\n->
+        HOW TO SELECT THE BOX: - On the top of the box, a slip will be pasted on which it will be mentioned what is inside the box and also the Hint about the model.\n\n->
+
+Round 2:- Teams have to design an <b>INNOVATIVE MODEL</b> using the components inside the box. \n\n
+RULES:-\n->It is not compulsory to use the hints and all the components to design your respective models. You are allowed to make your own model (model should have a use in real life app
+        lication).\n\n->Teams have to design their Models in specified time.\n\n
+
+Round 3:-<b> Describe your MODEL.</b>\n\n
+RULES:-\n->Teams which will Design their Model in ROUND 2 will be Qualified for the Final Round.\n\n-.Questions will Asked based on your model.\n\n
+GENERAL RULES:-\n 1. Team must consists of 4 members. \n\n2. Nominal fee of ₹3O will be charged per member of team for the components been provided. \n\n3. Use of mobile phones are not allowed.\n\n 4. In case of any Misbehavior and Cheating the team will be disqualified.\n\n 5. Decision of Judges will be final.
+  </string>
+    <string name="judgingCriteriat3">->Points will be given how quickly you designed the model, how innovative is it?\n\n-> Points will be given on the number of questions team have answered in ROUND 3. \n\n
+          TOTAL= POINTS SECURED IN ROUND 2 AND 3.
+ </string>
+    <string name="prizest3">Prizes: - Worth ₹3000. </string>
+    <string name="contactUst3">Aditya Gangwar: - 9452707821    \n           Tishu: - 7282818131\n
+Rahul Kr. Agrawal: - 9166127046    \n       Anshul Jain: - 7808747899 </string>
+    <string name="paymentt3">Paytm Number or PhonePe:-9166127046(Rahul Kumar Agrawal)  \nSender Details:-Team Name,Leader Name(Send in description) </string>
+    <string name="aboutt4">The fascinating Tesla coil, was the system that could WIRELESSLY transmit electricity. The “Mad scientist” experiment and the revolutionary invention of Nicola Tesla led to the creation of the Tesla coil. It can do things that are just plain cool i.e from lighting a bulb WIRELESSLY to shooting lightning bolts. Inspired by his works Dr. Stiffler and Dr. GBluer modified the Tesla coil to create SLAYER EXCITER. </string>
+    <string name="rulest4">-><b>Round 1</b>-\n\n->
+Here participants will be provided elements. By using them participants have to make the Tesla circuit.
+According to their design and conceptual understanding will help them to qualifying for the  next round.\n\n->
+
+<b>Round 2</b>-\n\n->
+The final result will be on the basis of personal interview related to the wireless technology.
+ </string>
+    <string name="judgingCriteriat4"> Winner will be decided on following basis:\n
+-> Power Generated by Slayer Exciter. \n ->  Design of the Slayer Exciter.\n ->  Conceptual understanding(In case of tie).\n </string>
+    <string name="prizest4">Prizes Worth:-Rs3000</string>
+    <string name="contactUst4">
+       -> Shashank-9927715688\n->
+Kirti prasad arya- 7280877012\n->
+Shubham kr-8409029060
+
+    </string>
+    <string name="paymentt4">
+        Rs 90 per team.
+       Through paytm number:-7294874926(Shashank Agrawal) or Cash. \nSender Details:-Team Name,Leader Name(Send in description)
+    </string>
+    <string name="aboutv">Bull Stock is an interesting competition designed to teach the key
+concepts of investing in the real market in real time by using virtual
+money.\n\n
+DETAILS:-
+->Event will commence 27th November 2017 and ends on 1st of
+December.\n\n
+->Login details will be send to your registered mail id before the
+commencement of event\n</string>
+    <string name="rulesv">->Participants must at least trade on 5 enterprises in a day.\n\n->
+Minimum 50 trade each day is mandatory.
+</string>
+    <string name="judgingCriteriav">->Winner will be decided on their final portfolio value (provided all
+above criteria are fulfilled).
+</string>
+    <string name="prizesv">Worth Rs 2500/-\n->
+Participation certificates will be given to all the participants.</string>
+    <string name="contactusv">Aman Singh- 9891212185\n
+Email id - singh.aman0731@gmail.com
+        </string>
+    <string name="paymentv">Only for Outsiders:-Rs 49/- individual.\n\n->
+        Through PAYTM/PHONE_PAY on number 9891212185(Aman Singh).\n\n->
+        Mention registered email as a remark during payment.\n
+        \nSender Details:-Team Name,Leader Name(Send in description)\n
+        <u>Free for IIT (ISM) Dhanbad B.Tech Studemt</u>
+    </string>
+    <string name="aboutmat">MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python.</string>
+    <string name="aboutiot">The Internet of things (IoT) is the network of physical devices, vehicles, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data. Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of about 30 billion objects by 2020.</string>
+    <string name="aboutmini">Mini Militia is a 2D multiplayer action game that challenges you to face opponents from all over the world. Up to six different players can play simultaneously during online battles and up to 12 using WiFi. \n
+
+The gameplay is really intuitive: the virtual stick that helps you move your character is on the left side of the screen and the aiming stick is on the right side. Your weapon shoots automatically as long as you pointing at your target. So, you only have to worry about aiming.
+</string>
+    <string name="rulesmini">->Participation fee will be Rs. 10 per head.\n\n->Anyone can participate in a group of 3 members.\n\n->
+    In case of individual entries, team will be formed on spot.</string>
+    <string name="judgingCriteriamini"> ->Supervisors will be there for every team in every round.\n\n->
+        Game will continue until 3 winners will come up.\n\n->
+Prize will be given to top 3 winners.
+ </string>
+    <string name="prizesmini">Prizes Worth:-Rs1800</string>
+    <string name="contactiot">Shashank Singh:-9455847129</string>
+    <string name="contactmat">Nilesh Pandey:-7808761915
+    </string>
+    <string name="contactUsmini">Akshay poonia- 9929261966\n
+Makrand kushwah- 9407219038</string>
+    <string name="aboutcs">Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game
+    that allows players to play on dedicated Valve servers, as well as allowing members of the community to host their own servers with custom maps and game modes.</string>
+    <string name="rulescs">->Participation fee will be Rs. 10 per head.\n\n->
+         A team of 5 member is required that you can form by your
+side or individuals will be grouped on spot.\n\n->
+Everyone needs to bring their mouse and headphones.\n
+
+    </string>
+    <string name="prizescs">Prizes Worth:-Rs1800</string>
+    <string name="judgingCriteriacs">Teams will be selected based on knockout tournament. </string>
+    <string name="contactUscs">Makrand Kushwah- 9407219038\n
+Akshay poonia- 9929261966</string>
+    <string name="aboutrobo">A  event  to showcase  your robotics talent and  also  to  bring    the  football  spirit.
+        Participants  are  required  to build  manually  controlled  bot  capable of  playing  soccer  on  an  arena specially  designed  for  the  robotic  soccer  match.
+        Do you have it in you to make your bots play and win the soccer cup?</string>
+    <string name="rulesrobo"><b>Rules :</b>\n \n
+1)Each team has to build one wired/wireless bot that can defend as well as score goal on the opposite side by hitting ,dragging or pushing the ball. \n
+2)Two halves of 4 minutes each will be given and extra time of one minute will be given in case of a tie.\n
+
+3)  Each team can have a maximum of 4 team members.\n
+4) The weight limit of the robot for this competition is 4 Kg.\n
+5) Each robot should not exceed by maximum 30cmx30cmx30cm even after any extension.\n
+6) A team can make either a wired or a wireless bot each within the
+above dimensions and weight limit.\n
+7) The ball can be hit, dragged or pushed by the team (Teams are not
+allowed to make contraptions for holding or lifting the ball. Grippers
+are not allowed).\n
+8)The voltage at any point on the electrical connections should not
+exceed 12 V DC.\n
+9)In case of a tie 1 minute extra time will be given to the teams.\n
+10) The robots are not allowed to use grippers or actuations which are
+intended to harm the opponent’s robot.\n </string>
+    <string name="judgingCriteriarobo">-> The team with maximum number of goals wins the match.\n\n->
+        The team that wins through all the knockout stages wins the robosoccer cup.\n\n->
+       Max participants in a group:4 </string>
+    <string name="prizesrobo">Prizes worth:-Rs2500</string>
+    <string name="contactsrobo"> Vishnu Kumar:-:-8130514052\nNiraj Kumar :- 9102809867.</string>
+    <string name="contactrobo">PhonePe or BHIM on :-\n<b>8130514052 (Vishnu Misra).\nSender Details:-Team Name,Leader Name(Send in description)</b></string>
+    <string name="contactrobo1">PhonePe or BHIM on :-\n<b>8130514052(Vishnu Misra).\nSender Details:-Team Name,Leader Name(Send in description)</b></string>
+
+    <string name="aboutpace">Robotics is taken to the next level when the robots take their decisions of their own.
+        In this event , an autonomous bot has to be made that can follow a wide strip of black line dodging all the difficulties coming its way at brisk pace.
+        The fastest one to complete the track gets to win the pace line follower .</string>
+    <string name="rulespace">1.In the first round, the track is to be traversed completely by the bot to qualify to the next round.
+        If the bot leaves the track , the team stands disqualified . A team can be given three chances at maximum . Timing will not be considered for the round one. \n
+2. In the second round, the fastest bot to complete the track wins the event \n
+3. Furthermore, the bot may have to pass through bridges
+and tunnels each of width 150 m\n
+4.The width of the line is 25 mm .\n
+5. The arena includes black straight lines and curves.
+ It’s dimensions are 6 ft x 5 ft.\n
+6. At one specific point, the line is discontinuous.\n\n
+<b>BOT SPECIFICATION</b>\n
+• The size of the bot must be less than 200X150X100 mm in size. Care must be taken so that the bot fits in the arena.\n
+• The bot may have any number of wheels.\n
+• Use of internal combustion engines in the bot is not allowed.\n
+• The bot may have its own source of power.\n
+• External power source of 220 Volts AC will be provided.\n
+• Teams are permitted to implement their own choice of steering mechanism.\n
+• The bot should be capable of climbing slopes and going down descends.\n
+• The bot should be able to find its way back on the track\n
+• The bot should be able to find its way back on the track where the line is discontinuous.\n
+• Teams are allowed to use readymade micro controllers and board or sensor kit.\n
+• Teams are not allowed to use readymade  kits or any such assemblies. </string>
+    <string name="judgingCriteriapace">->Ranking will be on the basis on timing of second round. \n\n->
+        The teams with least time will be declared winner and rest teams will be ranked accordingly . </string>
+    <string name="contactspace"> Vishnu Kumar:-\n\n->Contact no:-8130514052
+ </string>
+    <string name="prizespace">Prizes worth:-2500</string>
+
+    <string name="title_activity_developers">developers</string>
+
+    <string name="title_activity_contacts_us">contactsUs</string>
+    <string name="aboutus">"Vibhav 2k17" is the Annual Technical Event of the Electrical Engineering
+        Society. We aim to bring together the students of different departments to develop new break
+        -throughs in their respective fields of interest that might later help to bring  about a revolution in that field.
+        We wish to provide a platform
+        for students to present their ideas and showcase their talents in front of the best
+        in the country. The event spans across an entire day of intense contests, challenging
+        problems and spectacular presentations here in IIT(ISM) Dhanbad. If you have got what it takes to
+        stand out among the rest, we welcome you here at "Vibhav".    </string>
+
+
+    <string name="string_internet_connection_not_available">Internet Connection Not Available</string>
+    <string name="string_getting_json_title">Vibhav newsFeed</string>
+    <string name="string_getting_json_message">Getting Data from Vibhav</string>
+    <string name="string_some_thing_wrong">Something Wrong</string>
+    <string name="prompt_name">Name(compulsory)*</string>
+    <string name="error_field_required">Field Required</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="Invalid_no">Invalid Phone no</string>
+    <string name="faqs">
+        <b>Q.</b> One member from my group is missing. Can I participate in the event?\n\n
+        <b>A.</b> Yes, if the particular event has the flexibility in number of participants in a group or if you can arrange someone else in his/her place. \n\n\n
+       <b>Q.</b>  Can I attend the workshop without ant prior knowledge about it?\n\n
+       <b>A.</b> Yes, workshops are carefully designed to help you learn from the very basic.\n\n\n
+       <b>Q.</b> Will I get certificate for any event?  \n\n
+        <b>A.</b> Yes, winners will be given certificates.\n\n\n
+       <b>Q.</b>  How can I participate in two or more events if timings are clashing?\n\n
+        <b>A.</b> Priority to a particular event should be given if there is timing clash. \n\n\n
+        <b>Q.</b> Can I get help any time if I have some doubts?\n\n
+       <b>A.</b> Yes, organizers can be contacted any time in case of a doubt arises.\n\n\n
+        <b>Q.</b> Which PAYTM number should be used for paying participation charges of a particular event/workshop?\n\n
+       <b>A.</b>PAYTM numbers of event coordinator is provided in contact details of the event. \n\n\n
+       <b>Q.</b>  What details should be given while doing PAYTM? \n\n
+        <b>A.</b>In DESCRIPTION (OPTIONAL) option in PAYTM one has to fill the name of team leader/member along with his/her admission number. \n\n\n
+       <b>Q.</b> What is prerequisites for codeathon?\n\n
+       <b>A.</b> Your interest in the event is the only requirement. Questions are designed keeping FRESHERS in consideration.\n\n\n
+       <b>Q.</b>  What are requirements  to participate in Gaming Event? \n\n
+       <b>A.</b> Each participants must bring their own Mouse, Headphones and Keyboard(optional). Laptops will be provided on spot.\n\n\n
+       <b>Q.</b> -Can anyone other than electrical Engineering student participate in the TechFest?\n\n
+        <b>A.</b>-Yes,  any department students can participate in it.\n\n\n
+       <b>Q.</b> What is the last date of registration in an event? \n\n
+<b>A.</b>Nothing such,  you can register on spot also. It depends on availability of seats in an event.\n\n\n
+<b>Q.</b> In how many events one can participate? \n\n
+<b>A.</b>There is no such limitation. \n\n\n
+<b>Q.</b> How will I be notified that I have registered in an event?\n\n
+<b>A.</b>You will be sent an email of successful registration to your given mail id. \n\n\n
+<b>Q.</b> In how many events there is participation fees? \n\n
+<b>A.</b>In vitricity,  Aavishakar and PC/Mobile Gaming. \n\n\n
+<b>Q.</b> How to register in an event? \n\n
+<b>A.</b>Registration can be done only through <b>Vibhav</b> official app.\n\n\n
+<b>Q.</b> What are the payments methods?\n\n
+<b>A.</b>You can send the described amount through paytm to the number given in respective  events details in app. \n\n\n
+<b>Q.</b> Any other thing I should know. \n\n
+<b>A.</b>After registration, you will be added to a whatsapp group of the registered event where you can ask or find more details of the event.\n\n\n
+        <b>Q.</b> Is there any prior Knowledge of stock Knowledge neede for Bull Stock?\n\n
+        <b>A.</b>. No.\n\n
+</string>
+    <string-array name="eventsname">
+        <item>Codeathon</item>
+        <item>Brain O Riddle</item>
+        <item>Pirates Of Circuit</item>
+        <item>Guest Lecture</item>
+        <item>Placement Fever</item>
+        <item>Robo Soccer/Paceline Follower</item>
+        <item>Aavishkar</item>
+        <item>Mobile / PC Gaming</item>
+        <item>Internet of Things</item>
+    </string-array>
+    <string-array name="eventstime">
+        <item>Time:-\n09:00 a.m-11:00 a.m</item>
+        <item>Time:-\n09:00 a.m-10:00 a.m</item>
+        <item>Time:-\n10:00 a.m-11:00 a.m</item>
+        <item>Time:-\n11:30 a.m-01:30 p.m</item>
+        <item>Time:-\n11:30 a.m-12:30 p.m</item>
+        <item>Time:-\n12:30 p.m-02:30 p.m</item>
+        <item>Time:-\n02:00 p.m-05:00 p.m</item>
+        <item>Time:-\n02:00 p.m-06:30p.m</item>
+        <item>Time:-\n05:00 p.m-06:30p.m</item>
+    </string-array>
+    <string-array name="eventsvenue">
+        <item>Venue:-\nCC / NLHC-CC   </item>
+        <item>Venue:-\nNLHC-1,2       </item>
+        <item>Venue:-\nNLHC-3,4       </item>
+        <item>Venue:-\nGJLT           </item>
+        <item>Venue:-\nNLHC-1,2           </item>
+        <item>Venue:-\nSAC-Ground Floor           </item>
+        <item>Venue:-\nNLHC-3,4,5     </item>
+        <item>Venue:-\nNLHC-6,7,8     </item>
+        <item>Venue:-\nNLHC-1,2 / GJLT</item>
+
+    </string-array>
+    <string-array name="eventsname2">
+        <item>Guest Lecture</item>
+        <item>Brain O Riddle</item>
+        <item>Codeathon</item>
+        <item>Pirates of Circuit</item>
+        <item>Robo Soccer/Paceline Follower</item>
+        <item>Treasure Hunt</item>
+        <item>Vitricity</item>
+        <item>Mobile / PC Gaming</item>
+        <item>Paper Presentation</item>
+        <item>Internet of Things</item>
+        <item>Placement Fever</item>
+        <item>Closing Ceremony</item>
+
+    </string-array>
+    <string-array name="eventstime2">
+        <item>Time:-\n09:00 a.m-11:00 a.m</item>
+        <item>Time:-\n09:00 a.m-10:00 a.m</item>
+        <item>Time:-\n09:00 a.m-11:00 a.m</item>
+        <item>Time:-\n10:00 a.m-11:00 a.m</item>
+        <item>Time:-\n11:30 a.m-02:00 p.m</item>
+        <item>Time:-\n11:30 a.m-02:00 p.m</item>
+        <item>Time:-\n02:00 p.m-05:00 p.m</item>
+        <item>Time:-\n02:00 p.m-06:30 p.m</item>
+        <item>Time:-\n05:00 p.m-06:30 p.m</item>
+        <item>Time:-\n05:00 p.m-06:30 p.m</item>
+        <item>Time:-\n05:00 p.m-06:30 p.m</item>
+        <item>Time:-\n07:00 p.m-09:00 p.m</item>
+
+    </string-array>
+    <string-array name="eventsvenue2">
+        <item>Venue:-\nGJLT         </item>
+        <item>Venue:-\nNLHC-1,2     </item>
+        <item>Venue:-\nNLHC/CC     </item>
+        <item>Venue:-\nNLHC-3,4    </item>
+        <item>Venue:-\nSAC (Ground Floor) </item>
+        <item>Venue:-\nOLHC</item>
+        <item>Venue:-\nNLHC-3,4,5   </item>
+        <item>Venue:-\nNLHC-3,4,5   </item>
+        <item>Venue:-\nOLHC       </item>
+        <item>Venue:-\nNLHC-1,2 / GJLT</item>
+        <item>Venue:-\nNLHC</item>
+        <item>Venue:-\nGJLT/Penman</item>
+
+
+    </string-array>
+    <string name="title_activity_videoes">Videos</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+
+    </string>
+
+
+
+
+
+
+
+
+        <string name="title_activity_aavis">aavis</string>
+    <string name="title_activity_NewsFeed">NewsFeed</string>
+    <string name="paymentmini">Paytm no. 9929261966(Akshay Poornia)\n Participation fee will be Rs. 10 per head.\nSender Details:-Team Name,Leader Name(Send in description)</string>
+    <string name="paymentcs">Paytm no. -9929261966(Akshay Poornia).\n Participation fee will be Rs. 10 per head.\nSender Details:-Team Name,Leader Name(Send in description)</string>
+
+</resources>

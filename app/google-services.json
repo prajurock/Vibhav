@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "855478124334",
+    "firebase_url": "https://vibhav-4b5b9.firebaseio.com",
+    "project_id": "vibhav-4b5b9",
+    "storage_bucket": "vibhav-4b5b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855478124334:android:0b01881b72c01177",
+        "android_client_info": {
+          "package_name": "com.vibhav2k17.android.vibhav2k17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855478124334-n0nm9vqv2bqdof37lp1v3vu82p23e3h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibhav2k17.android.vibhav2k17",
+            "certificate_hash": "b0d6a87896adb8f234da7f260762b8b59e006a12"
+          }
+        },
+        {
+          "client_id": "855478124334-mqhmfqs8j4kvfkfqfivgr7i4aqf87mfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARVSFcLSGOnARWi4uGvLuGwqGkCMHRc2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855478124334-mqhmfqs8j4kvfkfqfivgr7i4aqf87mfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

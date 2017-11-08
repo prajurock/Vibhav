@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vibhav2k17.android.vibhav2k17">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        tools:overrideLibrary="android.support.customtabs" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.events"
+            android:label="Events" />
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.placement_fever"
+            android:label="Placement Fever"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.codeathon"
+            android:label="Codeathon "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Online"
+            android:label="Bull Stock"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Paper"
+            android:label="Paper Presentation "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Treasure"
+            android:label="Treasure Hunt"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.timetable"
+            android:label="Timings" />
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Workshop"
+            android:label="WORKSHOP"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.technical"
+            android:label="Technical"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.bor"
+            android:label="Brain O Riddle"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.technical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.technical" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.poc"
+            android:label="Pirates Of Circuit"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.technical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.technical" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.vitri"
+            android:label="Vitricity"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.technical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.technical" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Games"
+            android:label="Games"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Matlab"
+            android:label="Matlab "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.Workshop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.Workshop" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Iot"
+            android:label="Internet Of Things "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.Workshop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.Workshop" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.csgo"
+            android:label="CS Go "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.Games"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.Games" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.minimilitia"
+            android:label="Mini Militia "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.Games"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.Games" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.NewsFeed"
+            android:label="NewsFeed"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.MainActivity" /></activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.registation.registrationPlacement"
+            />
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.registrationPOC"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.AavishkarRegistration"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.BrainRegistartion"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.RegistrationCode"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.BullRegistartion"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.VintricityRegistration"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.MATLABregistration"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.CSgo"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.TreasureRegistration"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.Iotregistration"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.MiniMilitiaRegistration"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.Robo"
+            android:label="Robotics "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.roboSoccer"
+            android:label="Robo Soccer "
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.Robo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.Robo" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.robotics"
+            android:label="Pace Line Follower"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.Robo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.Robo" />
+        </activity>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.pacelineRegistration"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.RoboSoccerRegistration"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.registation.registrationPaper"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.aavis"
+            android:label="Aavishkar"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.vibhav2k17.android.vibhav2k17.events" /></activity>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.Guest"
+            android:label="Guest Lecture"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.events">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.events" /></activity>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.FAQs"
+            android:label="FAQs"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.MainActivity" /></activity>
+        <activity android:name="com.vibhav2k17.android.vibhav2k17.video"
+            android:label="Videos"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.MainActivity" /></activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.contactsUs"
+            android:label="Contact Us"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.vibhav2k17.android.vibhav2k17.developers"
+            android:label="Developers"
+            android:parentActivityName="com.vibhav2k17.android.vibhav2k17.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vibhav2k17.android.vibhav2k17.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

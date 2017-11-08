@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.vibhav2k17.android.vibhav2k17.placement_fever">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        app:titleTextColor="#000"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:titleTextColor="#000"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:id="@+id/titleImage"
+                android:scaleType="fitXY"
+                app:layout_collapseMode="parallax"
+                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:titleTextColor="#000"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.vibhav2k17.prajwal.vaibhav.placement_fever"
+        tools:showIn="@layout/activity_placement_fever"
+        android:id="@+id/nestedScrollView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:src="@drawable/texture"
+                android:scaleType="centerCrop"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="24dp"
+                        android:text="ABOUT"
+                        android:onClick="about"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:background="#37322F"
+                        android:layout_marginRight="4dp"
+                        android:textColor="#FFF"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="40dp"
+                        android:id="@+id/about"
+                        android:layout_weight="1"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/img"
+                        android:src="@drawable/arrowoo"
+                        android:layout_marginRight="24dp"
+                        android:layout_marginTop="40dp"
+                        android:background="#37322F"
+                        android:onClick="about"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginRight="4dp"
+                        android:text="CONTACT US"
+                        android:onClick="contactUs"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="#FFF"
+                        android:background="#37322F"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:id="@+id/contactUs"
+                        android:layout_weight="1"
+
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/arrowoo"
+                        android:layout_marginRight="24dp"
+                        android:layout_marginTop="4dp"
+                        android:background="#37322F"
+                        android:onClick="contactUs"
+                        />
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:fontFamily="monospace"
+        android:textColor="#FFF"
+        android:textSize="23dp"
+        android:background="#D32F2F"
+        android:onClick="register"
+        app:layout_anchor="@+id/nestedScrollView"
+        app:layout_anchorGravity="bottom|right"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

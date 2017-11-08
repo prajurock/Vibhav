@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbarColor">#eeee</color>
+    <color name="holo_gray">#717171</color>
+
+    <color name="colorPrimary">#36312e</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="red">#FF0000</color>
+    <color name="b">#DD20</color>
+    <color name="b1">#FFFF</color>
+</resources>

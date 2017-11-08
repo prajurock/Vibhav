@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.vibhav2k17.android.vibhav2k17.registation.BullRegistartion">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="575dp"
+            android:src="@drawable/texture"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/reg"
+            android:id="@+id/registrationdone"
+            android:layout_marginTop="43dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/registrationdone"
+            android:id="@+id/textInputLayout">
+
+            <AutoCompleteTextView
+                android:id="@+id/valueField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/valueField2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Name*"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textInputLayout2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_below="@+id/textInputLayout">
+
+            <EditText
+                android:id="@+id/valueField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="College Name*"
+                android:layout_below="@+id/textInputLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:maxLines="1"
+                android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textInputLayout3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_below="@+id/textInputLayout2">
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Mobile(WhatsApp No.)*"
+                android:inputType="phone"
+
+                android:layout_marginBottom="10dp"
+                android:layout_centerVertical="true"
+                android:maxLines="1"
+                android:singleLine="true"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textInputLayout4"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_below="@+id/textInputLayout3">
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email*"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/editText3"
+                android:maxLines="1"
+                android:singleLine="true"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@color/common_plus_signin_btn_text_dark_default"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="274dp"
+            android:layout_below="@+id/textInputLayout4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp" />
+
+    </RelativeLayout>
+</ScrollView>

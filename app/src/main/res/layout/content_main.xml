@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Scroll"
+    android:layout_below="@+id/banner_slider1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.vibhav2k17.android.vibhav2k17.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="990dp"
+        android:src="@drawable/texture"
+        android:scaleType="centerCrop"/>
+
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:gravity="center" />
+
+
+    <ss.com.bannerslider.views.BannerSlider
+                android:id="@+id/banner_slider1"
+                android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:animateIndicators="true"
+                android:elevation="10dp"
+                app:defaultIndicators="circle"
+                app:interval="100"
+
+                app:loopSlides="true"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/textno"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLay"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/banner_slider1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#36312e"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="8"
+            android:text="About Vibhav"
+            android:textColor="#BDBDBD"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:onClick="vibhav"
+            android:clickable="true"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="#BDBDBD"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="11"
+            android:text="About EES"
+            android:textColor="#BDBDBD"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:onClick="ees"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/linearLay1"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearLay"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:id="@+id/b1"
+            android:background="#DD20"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:id="@+id/b2"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLay1"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:id="@+id/tex"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/aboutus"
+        android:textSize="22dp" />
+
+
+</RelativeLayout>
+    </ScrollView>
+
+
